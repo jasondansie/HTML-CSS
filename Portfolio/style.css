@@ -1,13 +1,40 @@
-body{background-color:rgb(217, 217, 162); margin:25px;}
+body{
+    background-color:whitesmoke; margin:25px;
+}
 
-p{font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;}
+nav ul {
+    list-style-type: none;
+}
 
-div{background-color:rgb(239, 239, 198); text-align:justify;}
+ul li a {
+    padding: 20px;
+    display: block;
+    color: rgb(145, 159, 18);
+    text-decoration: none;
+}
 
-img{width:150px;}
+header li{
+    display: inline-block;
+}
 
-#goldrush{border-radius: 50%;}
-#lion{border-radius: 8px;}
+p{
+    font-family:Source Code Pro, serif; font-size: 20px;
+}
+
+div{
+    background-color:rgb(239, 239, 198); text-align:justify;
+}
+
+img{
+    width:150px;
+}
+
+#goldrush{
+    border-radius: 50%;
+}
+#lion{
+    border-radius: 8px;
+}
 
 div.container 
 {
@@ -22,5 +49,9 @@ div.polaroid
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
+}
+
+#heroBanner{
+    
 }
 
