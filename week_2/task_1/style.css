@@ -1,0 +1,25 @@
+body {
+    font-family: 'Silkscreen', serif;
+    font-size: 18px;
+  }
+img 
+{
+    width: 800px;
+}
+ul
+{
+    display: flex;
+    float: left;
+}
+li 
+{
+    margin: 10px;
+}
+h1
+{
+    text-align: center;
+}
+p
+{
+    text-align: justify;
+}

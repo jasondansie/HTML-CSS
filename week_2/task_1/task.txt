@@ -1,0 +1,10 @@
+Make new project (second week, task 1
+In index.htmladd header element and inside it nav element with
+unordered list. 
+ 
+ Make list items to be links to Home and Contacts.Styleheader(bg, 
+ inline menu)
+ 
+ Add main element and inside it a container to wrap content
+ 
+ Add heading, image and paragraph
