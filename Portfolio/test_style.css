@@ -1,0 +1,34 @@
+
+
+/* The hero image */
+.hero-image {
+ /*    background-image: url(/images/boxes.jpg); */
+    /* Set a specific height */
+   /*  height: 50%; */
+
+    /* Position and center the image to scale nicely on all screens */
+/*     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+}
+/* The hero image */
+
+body {
+    
+    background-image: url(/images/boxes.jpg);
+    /* Set a specific height */
+    height: 50vh;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;   
+    color: rgb(239, 226, 226);
+}
