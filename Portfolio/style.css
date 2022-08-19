@@ -1,5 +1,4 @@
 body {
-    background-color:white;
     background-image: url(/images/boxes.jpg);
     height: 50vh;
 
@@ -12,6 +11,10 @@ body {
 
 p{
     font-family:Source Code Pro, serif; font-size: 20px;
+}
+
+h1, h2, p {
+    margin: 0;
 }
 
 nav ul {
@@ -34,7 +37,7 @@ header li{
 }
 
 .hero-image{
-    height: 500px;
+    height: 100px;
 }
 .hero-text {
     text-align: center;   
@@ -42,7 +45,7 @@ header li{
 }
 
 .projects{
-    height: 300px;
+    height: 500px;
     background-color: white;
 }
 
@@ -55,7 +58,7 @@ header li{
 
 .skills{
     background-color:rgb(239, 239, 198); text-align:justify;
-    height: 300px;
+    height: 500px;
 }
 
 .skills img{
@@ -88,12 +91,9 @@ div.polaroid
 }
 
 footer{
-    position:absolute;
-    left:0;
-    right:0;
     height: 50px;
     text-align: center;   
-    color: rgb(239, 226, 226);
+    color: #756E58;
     background-color: rgb(32, 20, 20);
 }
 
