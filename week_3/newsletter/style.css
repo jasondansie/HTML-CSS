@@ -1,0 +1,74 @@
+body{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.signUpForm{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 125%;
+    background-color: white;
+    width: 80%; 
+    border-radius: 2%;  
+
+}
+
+#formSection {
+    width: 30%;
+   
+}
+
+input {
+    font-family: inherit;
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px;
+    margin: 0px 0 22px 0;
+    display: inline-block;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.whiteText{
+ color: white;
+}
+.orangeText{
+    color: orange;
+  }
+
+  .bottomText{
+    float: left;
+  }
+
+.signUpForm{
+    display: flex;
+}
+
+#formTopText{
+    text-align: center;
+}
+
+#formDiv{
+    margin: auto;
+    position: relative;   
+}
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 8px;
+  }
+  
+  
