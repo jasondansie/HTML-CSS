@@ -1,62 +1,59 @@
-body{
+body {
     background-color: green;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-* {
-    box-sizing: border-box;
+
+.signUpForm {
+    background-color: white;
+    width: 40%;
+    border-radius: 2%;
 }
 
-.signUpForm{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 125%;
-    background-color: white;
-    width: 80%; 
-    border-radius: 2%;  
-
+.outsideBottomText {
+    float: left;
 }
 
 #formSection {
-    width: 30%;
-   
+    padding-left: 35%;
 }
 
 input {
     font-family: inherit;
-    border-radius: 8px;
+    border-radius: 5px;
     width: 100%;
-    padding: 15px;
     margin: 0px 0 22px 0;
     display: inline-block;
 }
 
-h1, h3{
+h1,
+h3 {
     text-align: center;
 }
 
-.whiteText{
- color: white;
+.whiteText {
+    color: white;
 }
-.orangeText{
+
+.orangeText {
     color: orange;
-  }
+}
 
-  .bottomText{
+.bottomText {
     float: left;
-  }
+}
 
-.signUpForm{
+.signUpForm {
     display: flex;
 }
 
-#formTopText{
+#formTopText {
     text-align: center;
 }
 
-#formDiv{
+#formDiv {
     margin: auto;
-    position: relative;   
+    position: relative;
 }
 
 button {
@@ -69,6 +66,4 @@ button {
     width: 100%;
     opacity: 0.9;
     border-radius: 8px;
-  }
-  
-  
+}
