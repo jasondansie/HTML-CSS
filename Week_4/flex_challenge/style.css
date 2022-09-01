@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    height: 10hv;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 100vw;
+}
+
+.site-title.pm {
+    flex: 1;
+    background-color: yellow;
+}
+
+nav {
+    flex: 3;
+}
+
+nav .pm {
+    background-color: lightpink;
+    margin: 1px;
+}
+
+.post-title.pm {
+    background-color: cornflowerblue;
+    width: 75%;
+    height: 100px;
+    flex-direction: row;
+}
+
+.post-meta.pm {
+    background-color: yellowgreen;
+}
+
+.main-content.pm {
+    background-color: grey;
+}
+
+.main-content-img.pm {
+    background-color: yellow;
+}
+
+.side-bar.pm {
+    background-color: orange;
+}
+
+.ads.pm {
+    background-color: green;
+}
+
+.other-stuff.pm {
+    background-color: mediumorchid;
+}
+
+footer.pm {
+    background-color: red;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    float: 2;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.section-post-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
