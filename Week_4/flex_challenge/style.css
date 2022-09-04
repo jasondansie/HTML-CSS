@@ -17,104 +17,118 @@ header {
     height: 10vh;
     width: 100vw;
     padding: 0;
+    margin: 0 0 5px;
 }
 
 header .site-title.pm {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 50vw;
+    margin: 0 2px 0;
     background-color: yellow;
     height: inherit;
-    flex: 2;
+    order: 1;
 }
 
-header ul {
+header nav {
+    order: 2;
+    width: 50vw;
+}
+
+header nav ul {
     display: flex;
     list-style-type: none;
-    align-items: center;
-
 }
 
 header nav .pm {
     display: flex;
     background-color: lightpink;
-    margin: 1px;
+    margin: 0 2px 0;
     height: 10vh;
-    align-items: center;
-    flex: 1;
-}
-
-header nav {
-    flex: 2;
-    justify-content: space-evenly;
+    width: 100vw;
 }
 
 main {
-
+    display: flex;
+    flex-direction: row;
     height: 100vh;
     width: 100vw;
 }
 
 section {
     display: flex;
-    flex-direction: row;
-    height: 100vh;
+    flex-direction: column;
+    flex-grow: 3;
+    order: 1;
 }
-
-.post-title.pm {
-    background-color: cornflowerblue;
-    width: 75%;
-    height: 100px;
-    flex-direction: row;
-}
-
-.post-meta.pm {
-    background-color: yellowgreen;
-}
-
-.main-content.pm {
-    background-color: grey;
-}
-
-.main-content-img.pm {
-    background-color: yellow;
-}
-
-.side-bar.pm {
-    background-color: orange;
-}
-
-.ads.pm {
-    background-color: green;
-}
-
-.other-stuff.pm {
-    background-color: mediumorchid;
-}
-
-footer.pm {
-    background-color: red;
-}
-
-
 
 aside {
     display: flex;
     flex-direction: column;
-    float: 2;
-    height: 100vh;
+    justify-content: space-between;
+    flex-grow: 1;
+    order: 2;
 }
 
-
+.post-title.pm {
+    background-color: cornflowerblue;
+    order: 1;
+    flex-grow: 1;
+    margin: 0 4px 4px;
+}
 
 .section-post-container {
     display: flex;
-    flex-direction: column;
-    flex: 1;
+    flex-direction: row;
+    flex-grow: 7;
+    order: 2;
+}
+
+
+.post-meta.pm {
+    background-color: yellowgreen;
+    flex-grow: 1;
+    order: 1;
 }
 
 .main-content-container {
     display: flex;
     flex-direction: column;
-    flex: 2;
+    flex-grow: 3;
+    order: 2;
+}
+
+.main-content.pm {
+    background-color: grey;
+    flex-grow: 1;
+    order: 2;
+    margin: 0 4px 4px;
+}
+
+.main-content-img.pm {
+    background-color: yellow;
+    flex-grow: 3;
+    order: 3;
+    margin: 0 0 0 4px;
+}
+
+.side-bar.pm {
+    background-color: orange;
+    height: 33vh;
+}
+
+.ads.pm {
+    background-color: green;
+    height: 33vh;
+}
+
+.other-stuff.pm {
+    background-color: mediumorchid;
+    height: 33vh;
+}
+
+footer.pm {
+    background-color: red;
+    margin: 4px 0 0;
+    width: 100vw;
+    height: 15vh;
 }
