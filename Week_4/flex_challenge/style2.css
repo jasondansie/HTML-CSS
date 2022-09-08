@@ -18,12 +18,13 @@ body {
     margin: 2px;
 }
 
+/* top area */
 header {
     display: flex;
 }
 
 .site-title {
-    background-color: yellow;
+    background: yellow;
     flex: 1;
 }
 
@@ -40,6 +41,8 @@ li {
     background: pink;
     flex: 1;
 }
+
+/* main area */
 
 main {
     display: flex;
@@ -65,13 +68,13 @@ section {
 }
 
 .main-content-container {
-    display: flex;
     flex: 3;
+    display: flex;
     flex-direction: column;
 }
 
 .main-content {
-    background: lightgray;
+    background: lightgrey;
     flex: 1;
 }
 
@@ -80,9 +83,11 @@ section {
     flex: 2;
 }
 
+/* aside */
+
 aside {
-    display: flex;
     flex: 1;
+    display: flex;
     flex-direction: column;
     height: 100%;
 }
@@ -102,11 +107,13 @@ aside div:last-child {
     flex: 1;
 }
 
+/* footer */
+
 footer {
     background: brown;
 }
 
-@media (max-width:320px) {
+@media (max-width: 320px) {
 
     header,
     ul,
@@ -119,7 +126,7 @@ footer {
     }
 }
 
-@media(min-width: 768px) {
+@media (max-width: 768px) {
     .section-post-container {
         flex-direction: column;
     }
