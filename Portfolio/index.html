@@ -1,110 +1,159 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet"type="text/css"href="style.css">
+       
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro">
+
+        <script src="https://kit.fontawesome.com/d629f9e2ac.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet"type="text/css"href="style.css">
         
         <title>My Portfolio</title>
     </head>   
-    <body>
-        <div class="hero-img">
+    <body>     
         <header>        
             <nav>
+                <div class="logo">
+                    <img src="/Portfolio/images/1-transperant .png" alt="Jason Dansie">
+                </div>
                 <ul>
-                    <li><a href="index.html">Projcets</a></li>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Skills</a></li> 
+                    <li><a href="#projects">Projcets</a></li>
+                    <li><a href="#aoutMe">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li> 
                     <li><a href="">More about BCH</a></li> 
                     <li><a href="test.html">test</a></li>          
                 </ul>
             </nav>  
-        </header>   
-
-            <h1>My Portfolio</h1>
-
-            <div class="hero-text">
-                <h1>I am Jason Dansie</h1>
-                <p>And I'm a Game programmer</p>
-                <button>Hire me</button>
+            <div id="hero-banner">
+                <div class="container">
+                    <h2>I am Jason Dansie</h2>
+                    <h3>And I'm a Game programmer</h3>
+                    <button>Hire me</button>
+                </div>    
             </div>
-        </div>
-            
-        </div>          
-        
+        </header>          
         <main>
-            <section>
-                
-                <div class="">
-                    
-                </div>
-        
-                <div class="projects">
-                    
+            <section id="projects">
+                <div class="container">
                     <h2>Projects</h2>
-
-                    <img src="/Portfolio/images/lion.jpg" alt="A lion and lightning">
-                    
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-                <div class="skills">
-                    
-                    <h2>Skills</h2>
-                    
-                    <img src="/Portfolio/images/GoldRush.jpg" alt="A lion and lightning">
-                    
-                    <p>       
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Neque convallis a cras semper 
-                        auctor neque vitae tempus. Dignissim enim sit amet venenatis urna cursus eget 
-                        nunc scelerisque. Nulla facilisi etiam dignissim diam quis enim lobortis 
-                        scelerisque fermentum. Adipiscing diam donec adipiscing tristique risus nec 
-                        feugiat in. Ultrices mi tempus imperdiet nulla. 
-                    </p>
-                </div>               
-                <div class="aboutMe">
-                    
-                    <h2>About Me</h2>
-                    
-                    <div class="polaroid">
-                        <img src="/Portfolio/images/Raft.jpg" alt="5 Terre" style="width:100%">
-                        <div class="container">
-                        <p>Raft on the raging sea</p>
+                    <div class="projects_boxes">
+                        <div class="box">
+                            <img
+                            src="https://source.unsplash.com/1600x900/?time"
+                            alt="time"
+                          />
+                          <h3>Lorem ipsum dolor sit</h3>
+                          <p><em> HTML, CSS, JavaScript</em></p>
+                          <a href="#">See more</a>  
+                        </div>
+                        <div class="box">
+                            <img
+                            src="https://source.unsplash.com/1600x900/?car"
+                            alt="time"
+                          />
+                          <h3>Lorem ipsum dolor sit</h3>
+                          <p><em> HTML, CSS, JavaScript</em></p>
+                          <a href="#">See more</a>  
+                        </div>
+                        <div class="box">
+                            <img
+                            src="https://source.unsplash.com/1600x900/?people"
+                            alt="time"
+                          />
+                          <h3>Lorem ipsum dolor sit</h3>
+                          <p><em> HTML, CSS, JavaScript</em></p>
+                          <a href="#">See more</a>  
                         </div>
                     </div>
+                </div>
+            </section>
+                <section id="projects-1">
+                    <div class="container">
+                        <h2>Projects</h2>
+                        <div class="cards">
+                            <div class="card">
+                                <img src="/Week_4/images/GoldRush.jpg" alt="random image">
+                                <h3>Heading</h3>
+                                <p><em>Here is a cool project</em></p>
+                                <a href="#">see more</a>
+                            </div>
+                            <div class="card">
+                                <img src="/Week_4/images/lion.jpg" alt="random image">
+                                <h3>Heading</h3>
+                                <p>Here is a cool project</p>
+                                <a href="#">see more</a>
+                            </div>
+                            <div class="card">
+                                <img src="/Week_4/images/Raft.jpg" alt="random image">
+                                <h3>Heading</h3>
+                                <p>Here is a cool project</p>
+                                <a href="#">see more</a>
+                            </div>
+                        </div>
+                    </div>                 
+                </section>
+
+                <section id="about">
+                    
+                    <h2>About Me</h2>
+                        <img src="https://source.unsplash.com/1600x900/?people" alt="time">                     
                     
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsum provident quasi esse perferendis quisquam ea ad deserunt iure officia expedita atque, similique, velit magnam magni nisi illum veritatis amet consectetur animi, obcaecati neque debitis assumenda! Quod amet modi voluptatum. Architecto similique, facere eveniet, labore illum nobis aperiam eos dolorum iusto distinctio voluptatibus natus? Consequatur, natus nihil sapiente sunt tempore magni earum ullam quos. Cum accusamus tenetur officia odit laboriosam error commodi doloremque suscipit incidunt dolorem eos, quasi, modi ipsum autem consectetur ducimus ab pariatur ipsa iure iusto consequatur minus saepe? Eveniet odit ex debitis similique atque dicta. Architecto, perspiciatis.
                     </p>
-                </div>
-            </section>
+                </section>
+
+                <section id="skills">
+                    <div class="container">
+                        <h2>skills</h2>
+                        <div class="skills-group">
+                            <div class="skill">
+                                <i class="fa-brands fa-html5"></i>
+                                <p>HTML 5</p>
+                                <progress value="95" max="100">95%</progress>
+                            </div>
+                            <div class="skill">
+                                <i class="fa-brands fa-css3"></i>
+                                <p>CSS 3</p>
+                                <progress value="75" max="100">75%</progress>
+                            </div>
+                            <div class="skill">
+                                <i class="fa-brands fa-square-js"></i>
+                                <p>Javascript</p>
+                                <progress value="90" max="100">90%</progress>
+                            </div>
+                            <div class="skill">
+                                <i class="fa-brands fa-unity"></i>
+                                <p>Unity</p>
+                                <progress value="75" max="100">75%</progress>
+                            </div>
+                        </div>
+                    </div>
+                </section>
         </main>
     </body>
-    <footer>
-        <h2>Contact me</h2>
-        <form action="">
-            <div>
-                <label for="Name">Your name</label>
-                <input type="text" name="Name" id="Name" />
-              </div>
-              <div>
-                <label for="email">Your email</label>
-                  <input type="email" name="email" id="email" />
-              </div>
-              <div>
-                <label for="messageToMe">Message to me</label>
-                <textarea name="messageToMe" id="messageToMe" cols="30" rows="5"></textarea>
-              </div>
-              <div>
-                <button type="submit">Send Message</button>
-              </div>
-        </form>
-        <h4>Copyright 2022 Jason Dansie</h4>
+    <footer id="footer">
+        <div class="container">
+            <h2>Contact me</h2>
+            <form>
+                <div class="form-row">
+                    <label for="Name">Your name</label>
+                    <input type="text" name="Name" id="Name" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Your email</label>
+                    <input type="email" name="email" id="email" />
+                </div>
+                <div class="form-row">
+                    <label for="messageToMe">Message to me</label>
+                    <textarea name="messageToMe" id="messageToMe" cols="30" rows="5"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+            <p class="copyright">Copyright &copy; Jason Dansie 2022</p>
+        </div>
+        
     </footer>
 </html>
