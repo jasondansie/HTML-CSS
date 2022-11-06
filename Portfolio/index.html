@@ -14,16 +14,30 @@
         <header>        
             <nav>
                 <div class="logo">
-                    <img src="/Portfolio/images/1-transperant .png" alt="Jason Dansie">
+                    <img src="/Portfolio/images/1-transperant .png" alt="Jason Dansie"><a href="#projects"></a>
                 </div>
-                <ul>
-                    <li><a href="#projects">Projcets</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li> 
-                    <li><a href="">More about BCH</a></li> 
-                    <li><a href="test.html">test</a></li>          
-                </ul>
-            </nav>  
+                <div id="nav-main">
+                    <ul>
+                        <li><a href="#projects">Projcets</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li> 
+                        <li><a href="gallery.html">Gallery</a></li> 
+                        <li><a href="">More about BCH</a></li>                     
+                    </ul>
+                </div>              
+                <div id="mobile-nav">
+                    <button id="mobileButton">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
+                    <ul>
+                        <li><a href="#projects">Projcets</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li> 
+                        <li><a href="gallery.html">Gallery</a></li> 
+                        <li><a href="">More about BCH</a></li>          
+                    </ul>
+                </div>  
+            </nav>           
             <div id="hero-banner">
                 <div class="container">
                     <h2>I am Jason Dansie</h2>
@@ -39,21 +53,21 @@
                     <div class="projects_boxes">
                         <div class="box">
                             <img
-                            src="https://source.unsplash.com/1600x900/?time"
+                            src="./images/pokedex.png"
                             alt="time"
                           />
-                          <h3>Lorem ipsum dolor sit</h3>
+                          <h3>Pokedex with search and generations</h3>
                           <p><em> HTML, CSS, JavaScript</em></p>
-                          <a href="#">See more</a>  
+                          <a href="https://public.bc.fi/s2201195/pokedex/">See more</a>  
                         </div>
                         <div class="box">
                             <img
-                            src="https://source.unsplash.com/1600x900/?car"
+                            src="./images/speedgame.png"
                             alt="time"
                           />
-                          <h3>Lorem ipsum dolor sit</h3>
+                          <h3>A simple game of speed</h3>
                           <p><em> HTML, CSS, JavaScript</em></p>
-                          <a href="#">See more</a>  
+                          <a href="https://public.bc.fi/s2201195/speed_game/">See more</a>  
                         </div>
                         <div class="box">
                             <img
@@ -70,8 +84,7 @@
                 <section id="about">
                     
                     <h2>About Me</h2>
-                        <img src="https://source.unsplash.com/1600x900/?landscape" alt="time">                     
-                    
+                        <img src="https://source.unsplash.com/1600x900/?landscape" alt="time">                                
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsum provident quasi esse perferendis quisquam ea ad deserunt iure officia expedita atque, similique, velit magnam magni nisi illum veritatis amet consectetur animi, obcaecati neque debitis assumenda! Quod amet modi voluptatum. Architecto similique, facere eveniet, labore illum nobis aperiam eos dolorum iusto distinctio voluptatibus natus? Consequatur, natus nihil sapiente sunt tempore magni earum ullam quos. Cum accusamus tenetur officia odit laboriosam error commodi doloremque suscipit incidunt dolorem eos, quasi, modi ipsum autem consectetur ducimus ab pariatur ipsa iure iusto consequatur minus saepe? Eveniet odit ex debitis similique atque dicta. Architecto, perspiciatis.
                     </p>
@@ -105,29 +118,33 @@
                     </div>
                 </section>
         </main>
+        <footer id="footer">
+            <div class="container">
+                <h2>Contact me</h2>
+                <form>
+                    <div class="form-row">
+                        <label for="Name">Your name</label>
+                        <input type="text" name="Name" id="Name" />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Your email</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="form-row">
+                        <label for="messageToMe">Message to me</label>
+                        <textarea name="messageToMe" id="messageToMe" cols="30" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+                <p class="copyright">Copyright &copy; Jason Dansie 2022</p>
+            </div>
+            <button id="scrollUpButton">
+                <span>back to top</span>
+            </button>
+        </footer>
+        <script src="main.js"></script>
     </body>
-    <footer id="footer">
-        <div class="container">
-            <h2>Contact me</h2>
-            <form>
-                <div class="form-row">
-                    <label for="Name">Your name</label>
-                    <input type="text" name="Name" id="Name" />
-                </div>
-                <div class="form-row">
-                    <label for="email">Your email</label>
-                    <input type="email" name="email" id="email" />
-                </div>
-                <div class="form-row">
-                    <label for="messageToMe">Message to me</label>
-                    <textarea name="messageToMe" id="messageToMe" cols="30" rows="5"></textarea>
-                </div>
-                <div>
-                    <button type="submit">Send Message</button>
-                </div>
-            </form>
-            <p class="copyright">Copyright &copy; Jason Dansie 2022</p>
-        </div>
-        
-    </footer>
+   
 </html>
