@@ -3,56 +3,92 @@
     <head>
        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 
         <script src="https://kit.fontawesome.com/d629f9e2ac.js" crossorigin="anonymous"></script>
 
         <link rel="stylesheet"type="text/css"href="style.css">
         
         <title>My Portfolio</title>
-    </head>   
+    </head>     
     <body>     
         <header>        
             <nav>
                 <div class="logo">
-                    <img src="/Portfolio/images/1-transperant .png" alt="Jason Dansie"><a href="#projects"></a>
+                    <a href="./index.html">
+                        <img src="/Portfolio/images/1-transperant .png" alt="Jason Dansie">
+                    </a>  
                 </div>
-                <ul>
-                    <li><a href="#projects">Projcets</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li> 
-                    <li><a href="gallery.html">Gallery</a></li> 
-                    <li><a href="">More about BCH</a></li> 
-                             
-                </ul>
-            </nav>  
+                <div id="nav-main">
+                    <ul>
+                        <li><a href="#projects">Projcets</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li> 
+                        <li><a href="gallery.html">Gallery</a></li> 
+                        <li><a href="https://www.bc.fi/">More about BCH</a></li>                     
+                    </ul>
+                </div>  
+                <button id="mobileButton">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>            
+                <div id="mobile-nav">
+                    <ul>
+                        <li><a href="#projects">Projcets</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li> 
+                        <li><a href="gallery.html">Gallery</a></li> 
+                        <li><a href="https://www.bc.fi/">More about BCH</a></li>          
+                    </ul>
+                </div>  
+            </nav>           
+            <div id="hero-banner">
+                <div class="container">
+                    <h2>I am Jason Dansie</h2>
+                    <h3>And I'm a Game programmer</h3>
+                    <button>Hire me</button>
+                </div>    
             </div>
-        </header>          
+        </header>         
         <main>
-            
+            <div class="grid-container">            
+                    <img src="https://source.unsplash.com/1600x900/?landscape" alt="time">          
+                    <img src="https://source.unsplash.com/1600x900/?people" alt="time">           
+                    <img src="https://source.unsplash.com/1600x900/?places" alt="time">             
+                    <img src="https://source.unsplash.com/1600x900/?ants" alt="time">               
+                    <img src="https://source.unsplash.com/1600x900/?sky" alt="time">              
+                    <img src="https://source.unsplash.com/1600x900/?landmarks" alt="time">               
+                    <img src="https://source.unsplash.com/1600x900/?things" alt="time">            
+                    <img src="https://source.unsplash.com/1600x900/?trains" alt="time">        
+                    <img src="https://source.unsplash.com/1600x900/?gamer" alt="time">            
+              </div>       
         </main>
+        <footer id="footer">
+            <div class="container">
+                <h2>Contact me</h2>
+                <form>
+                    <div class="form-row">
+                        <label for="Name">Your name</label>
+                        <input type="text" name="Name" id="Name" />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Your email</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="form-row">
+                        <label for="messageToMe">Message to me</label>
+                        <textarea name="messageToMe" id="messageToMe" cols="30" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+                <p class="copyright">Copyright &copy; Jason Dansie 2022</p>
+            </div>
+            <button id="scrollUpButton">
+                <span>back to top</span>
+            </button>
+        </footer>
+        <script src="main.js"></script>
     </body>
-    <footer id="footer">
-        <div class="container">
-            <h2>Contact me</h2>
-            <form>
-                <div class="form-row">
-                    <label for="Name">Your name</label>
-                    <input type="text" name="Name" id="Name" />
-                </div>
-                <div class="form-row">
-                    <label for="email">Your email</label>
-                    <input type="email" name="email" id="email" />
-                </div>
-                <div class="form-row">
-                    <label for="messageToMe">Message to me</label>
-                    <textarea name="messageToMe" id="messageToMe" cols="30" rows="5"></textarea>
-                </div>
-                <div>
-                    <button type="submit">Send Message</button>
-                </div>
-            </form>
-            <p class="copyright">Copyright &copy; Jason Dansie 2022</p>
-        </div>
-        
-    </footer>
 </html>

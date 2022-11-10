@@ -49,14 +49,14 @@ aside {
     display: flex;
     flex-direction: column;
     background: green;
-    float: 1;
 }
 
 section {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
     height: 100vh;
+    flex: auto;
 
     background-color: darkslategrey;
 }
